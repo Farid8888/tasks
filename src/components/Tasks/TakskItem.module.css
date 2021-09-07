@@ -1,0 +1,6 @@
+.taskItem{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 1.4rem;
+    border-bottom: 1px solid grey;
+}

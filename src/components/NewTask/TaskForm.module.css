@@ -1,0 +1,34 @@
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.form input{
+    width: 75%;
+    border: none;
+    border-bottom: 2px solid gray;
+    font-size: 1.3rem;
+    padding: 0.3rem;
+}
+
+
+.form button{
+    font-size: 1rem;
+    background-color: rgb(104, 2, 50);
+    border-radius: 3rem;
+    color: white;
+    cursor: pointer;
+    padding: 13px 30px;
+    border:none
+}
+
+.form button:hover,
+.form button:active{
+    background-color: rgb(119, 21, 3);
+}
+
+.form input:focus{
+    outline: none;
+    border-color:red ;
+}

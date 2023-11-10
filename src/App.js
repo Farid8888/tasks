@@ -48,8 +48,6 @@ const createData =(data)=>{
     })
   }
 
-  const ti =tasks.map(t=>t.text)
-  console.log(ti)
   return(
     <React.Fragment>
      <NewTask getHandler={fetchHandler} addHandler={addHandler}/>
